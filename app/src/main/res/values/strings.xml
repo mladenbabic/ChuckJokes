@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chuck Jokes</string>
+    <string name="instructions">Are you sure that you know all Chuck Norris facts?</string>
+    <string name="button_text">Show Chuck joke :)</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="check_connection">Please check internet connection</string>
+    <!--<string name="app_angine_project_url">http://10.0.2.2:8080/_ah/api/</string>-->
+    <string name="app_engine_project_url">https://rich-jigsaw-689.appspot.com/_ah/api/</string>
+</resources>
