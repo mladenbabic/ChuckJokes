@@ -9,7 +9,9 @@ import com.udacity.gradle.buiditbetter.joke.ChuckJoke;
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * AsyncTask class for testing server connection
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
+ * Implemented based on Sunghun's blog http://marksunghunpark.blogspot.co.uk/2015/05/how-to-test-asynctask-in-android.html
  */
 public class ApplicationTest extends ApplicationTestCase<Application> {
 

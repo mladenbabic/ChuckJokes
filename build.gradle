@@ -18,7 +18,7 @@ allprojects {
     }
 }
 
-task connectedTestsWithServer(
+task startServerAndTests(
         dependsOn: [":jokebackend:appengineRun", ":jokebackend:appengineStop", ":app:connectedCheck"]) {
     evaluationDependsOn ":jokebackend"
 
