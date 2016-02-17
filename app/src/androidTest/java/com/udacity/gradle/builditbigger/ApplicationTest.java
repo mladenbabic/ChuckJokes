@@ -33,7 +33,7 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         signal.countDown();
     }
 
-    public void testAlbumGetTask() throws InterruptedException {
+    public void testGetJokeTask() throws InterruptedException {
 
         EndpointsAsyncTask endpointsAsyncTask = new EndpointsAsyncTask(getContext());
         endpointsAsyncTask.execute(new EndpointsAsyncTask.OnRetrieveJokeListener() {
